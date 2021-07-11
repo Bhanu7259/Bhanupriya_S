@@ -1,2 +1,2 @@
 # Bhanupriya_S
-### Tic-Tac-Toe game  
+### **Tic-Tac-Toe game**  
