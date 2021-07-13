@@ -10,3 +10,5 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/985fd1d04c91429f812550769eddb871)](https://www.codacy.com/gh/Bhanu7259/Bhanupriya_S/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Bhanu7259/Bhanupriya_S&amp;utm_campaign=Badge_Grade)
 
 [![Code grade](https://www.code-inspector.com/project/25063/score/svg)](https://frontend.code-inspector.com/public/project/25063/Bhanupriya_S/dashboard)
+
+[![Code grade](https://www.code-inspector.com/project/25063/status/svg)](https://frontend.code-inspector.com/public/project/25063/Bhanupriya_S/dashboard)
