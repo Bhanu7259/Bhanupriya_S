@@ -1,5 +1,6 @@
 # Bhanupriya_S
 ### **Tic-Tac-Toe game**  
+#### It is a game played by two persons who alternately place X's and O's upon a 3x3 playing field. The players first decide who will mark his moves with an X and who will go first. Play proceeds with the opponents alternately placing their marks in any unoccupied cell. The object of the game is to be the first player with 3 marks in a row, where a row can be either vertical, horizontal, or diagonal.
 
 ## Folder Structure
 Folder             | Description
