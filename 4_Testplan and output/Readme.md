@@ -1,17 +1,19 @@
 # TEST PLAN:
 
-## Table 1: High level test plan
+## Table no: High level test plan
 
-| **Test ID** | **Description**                                              | **Exp I/P** | **Exp O/P** | **Actual Out** |**Type Of Test**  |    
-|-------------|--------------------------------------------------------------|-----------------|-------------|----------------|------------------|
-|  H_01       | If game over return 1                                        |  void           |   1         | 1              |Requirement based |
-|  H_02       | User enters a cell number, his token should appear there     |  Integers 1 to 9|token appears in the cell|correct output|Scenario based |
-|  H_03       | Invalid if user enters a number out of range                 |  Integers other then 1 to 9 |invalid | invalid |Boundary based    |
+|Test ID | Description | Exp I/P | Exp O/P |
+|--------|-------------|---------|---------|
+|H_01    |  Check if the graph for playing is being drawn or not.           |    No input.     |      3X3 graph is drawn.   |
+|H_02    |Check if player/computer got 3 of his inputs in vertical, horizontal or diagonal format.             |   'X' or 'O' i/p from the user/computer.      |The user/computer won the game.|
+|H_03    | Check for draw.            |   9 inputs from (user+computer).      |     The game is over.    |
 
-## Table 2: Low level test plan
 
-| **Test ID** | **Description**                                              | **Exp IN** | **Exp OUT** | **Actual Out** |**Type Of Test**  |    
-|-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
-|  L_01       | If game is over exit the program                             |  void      | exit        | exit           |Requirement based |
-|  L_02       | If no cells avilable exit the game                           |  integer 9 | exit        | exit           |Scenario based    |
 
+## Table no: Low level test plan
+
+|Test ID | Description | Exp I/P | Exp O/P |
+|--------|-------------|---------|---------|
+|L_01    | Checking for the basic requirement to the game, i.e., a 3X3 graph is drawn or not. This 3X3 graph is the basic need to play the game as it is like a game board for the game. |    Not input expected from the user. |  3X3 graph is drawn.  |
+|L_02    |  Play proceeds with the user/computer alternately placing their marks in any unoccupied cell. Check if any player/computer finishes  with 3 marks in a row(vertical, horizontal or diagonal). |   'X' or 'O' i/p from the user/computer.      |   The user/computer won the game.      |
+|L_03    |   Check if a total of 9 moves have been made( combining that of user and computer), the game ends up in a draw when neither the user nor the computer is able to get 3 marks in a row.           |  9 inputs from (user+computer).       |                The game is over.       Somebody won or the game ended as a draw. |
